@@ -1,0 +1,33 @@
+.body {
+    background-color: #f5e4e2;
+    font-size: 20px;
+    
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.list-with-links {
+    list-style: none;
+    padding-bottom: 120px;
+}
+
+.list-with-links a {
+    color: #e59086;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.list-with-links li {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.list-with-links li:last-child {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
