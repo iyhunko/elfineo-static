@@ -8,12 +8,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
+
+    padding-bottom: 120px;
+}
+
+.links-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .list-with-links {
     list-style: none;
-    padding-bottom: 120px;
 }
 
 .list-with-links a {
